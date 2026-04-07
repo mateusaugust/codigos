@@ -4,7 +4,7 @@ app = FastAPI()
 
 @app.get("/")
 def home():
-    return {"mensagem": "API rodando no Render 🚀"}
+    return {"mensagem": "API rodando"}
 
 @app.get("/soma")
 def soma(a: float, b: float):
